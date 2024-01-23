@@ -1,0 +1,294 @@
+.team__container {
+  #carouselExampleIndicators:nth-child(1) {
+    height: 700px;
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 56px;
+    border: 1px solid var(--Light-Gray, #9b9cb2);
+    background-color: transparent;
+    transition: 0.4s ease;
+  }
+  .carousel-indicators .active {
+    width: 48px;
+    height: 10px;
+    border-radius: 56px;
+    border: 1px solid var(--Black, #0a0a0a);
+    transition: 0.4s ease;
+  }
+  & .team {
+    & .team__blocks_slider {
+      display: none;
+    }
+    & .team__blocks_container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 52px;
+      justify-content: space-between;
+    }
+    & .team__block-styles_block {
+      bottom: 0;
+      flex-wrap: wrap;
+      display: flex;
+      gap: 12px;
+      width: 100%;
+      & .team__block-styles_block--style {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        background: var(--White, #fffefe);
+      }
+    }
+    & .team__block-image {
+      height: 248px;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      & .team__block-image--photo {
+        position: absolute;
+        z-index: 9999;
+        img {
+          mix-blend-mode: multiply;
+        }
+      }
+      & .team__block-image--purple_background {
+        position: relative;
+        width: 321.352px;
+        height: 161.84px;
+        border-radius: 323.681px 323.681px 0 0;
+        background: var(--Accent, linear-gradient(152deg, #e2a4ff -18.58%, #6777ff 92.65%));
+      }
+      & .team__block-image--purple_background-blur {
+        position: absolute;
+        width: 379px;
+        height: 187.84px;
+        border-radius: 323.681px 323.681px 0 0;
+        background: var(--New-Grad, linear-gradient(152deg, #e2a4ff 38.51%, #3146ff 104.13%));
+        filter: blur(50px);
+        z-index: -10;
+      }
+    }
+    margin-top: 120px;
+    margin-bottom: 170px;
+    & .team__block {
+      & .team__block-description_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 24px;
+        width: 525px;
+        height: 371px;
+        border-radius: 16px;
+        background: rgba(0, 41, 255, 0.05);
+        & .team__block-description_block--name_position:first-child {
+          color: var(--Black, #0a0a0a);
+          /* 14/Medium */
+          font-family: "Poppins", sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%; /* 22.4px */
+          letter-spacing: 0.07px;
+        }
+        & .team__block-description_block--name_position-second-child {
+          color: var(--Black, #0a0a0a);
+          /* H3 */
+          font-family: "Poppins", sans-serif;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        & .team__block-description_block--texts p span {
+          color: var(--Gray, #6a6b7a);
+          /* 14/Medium */
+          font-family: "Poppins", sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%; /* 22.4px */
+          letter-spacing: 0.07px;
+        }
+        & .team__block-description_block--texts p {
+          color: var(--Gray, #6a6b7a);
+          /* 14/Regular */
+          font-family: "Poppins", sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          letter-spacing: 0.07px;
+        }
+      }
+      & h1 {
+        color: var(--Black, #0a0a0a);
+        font-variant-numeric: lining-nums proportional-nums;
+        /* H1 */
+        font-family: "Poppins", sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 72px */
+      }
+    }
+    & .reviews_container {
+      margin-top: 170px;
+      & h2 {
+        color: var(--Dark-Gray, #222427);
+        font-variant-numeric: lining-nums proportional-nums;
+        /* H1 */
+        font-family: "Poppins", sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 72px */
+      }
+      & .reviews_container-slider {
+        padding: 24px 32px;
+        & .carousel-item {
+          & .slider_reviews_top {
+            display: flex;
+            justify-content: space-between;
+            & .slider_reviews_person {
+              display: flex;
+              flex-direction: row;
+              & .slider_reviews_person_photo {
+                width: 83px;
+                height: 83px;
+                & img {
+                  border-radius: 60.201px;
+                  object-fit: cover;
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              & .slider_reviews_person_description {
+                margin-left: 8px;
+                & p {
+                  margin-bottom: 4px;
+                }
+
+                & p:nth-child(1) {
+                  color: var(--Gray, #6a6b7a);
+                  /* 14/Regular */
+                  font-family: "Poppins", sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 160%; /* 22.4px */
+                  letter-spacing: 0.07px;
+                }
+                & p:nth-child(2) {
+                  overflow: hidden;
+                  color: var(--Black, #0a0a0a);
+                  text-overflow: ellipsis;
+                  /* 14/Medium */
+                  font-family: "Poppins", sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 160%; /* 22.4px */
+                  letter-spacing: 0.07px;
+                }
+                & .slider_reviews_stars {
+                  display: flex;
+                  flex-direction: row;
+                  & .slider_reviews_star {
+                    width: 30.8px;
+                    height: 30.8px;
+                  }
+                }
+              }
+            }
+
+            & .slider_reviews_quote {
+              width: 72px;
+              height: 72px;
+              padding: 18.638px 18.638px 15.532px 17.085px;
+              border-radius: 50%;
+              background: var(--White, #fffefe);
+            }
+          }
+        }
+        & .slider_reviews_bottom {
+          margin-top: 50px;
+          margin-bottom: 50px;
+          & p {
+            color: var(--Gray, #6a6b7a);
+            font-family: "Poppins", sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+  & .slider_reviews_arrows {
+    display: flex;
+    height: 50px;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    & .carousel-control-prev {
+      width: 48px;
+      height: 48px;
+      border-radius: 56px;
+      border: 1px solid var(--Gray, #6a6b7a);
+    }
+    & .carousel-control-next {
+      width: 48px;
+      height: 48px;
+      border-radius: 56px;
+      border: 1px solid var(--Gray, #6a6b7a);
+    }
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    position: inherit;
+    opacity: 1;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    position: inherit;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: inherit;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:594px){
+
+
+  .team__container .team .reviews_container .reviews_container-slider .slider_reviews_bottom p {
+      color: var(--Gray, #6A6B7A);
+      /* 20/Regular */
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180%; /* 36px */
+  }
+  .reviews_container .reviews_container-slider {
+    padding: 24px 0;
+}
+.team__container .team .reviews_container .reviews_container-slider .carousel-item .slider_reviews_top .slider_reviews_quote {
+  background: transparent;
+}
+.team__container .team .reviews_container .reviews_container-slider .carousel-item .slider_reviews_top .slider_reviews_quote img{
+  width: 26.5px;
+  height: 26.5px;
+  margin-top: 10px;
+}
+
+}

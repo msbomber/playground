@@ -1,0 +1,52 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+//Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1216px !important;
+    }
+}
+
+//Base
+@import "base/general";
+@import "base/buttons";
+@import "base/header";
+@import "base/footer";
+@import "base/gradients";
+
+//Homepage
+
+@import "pages/home/home";
+@import "pages/home/home-media";
+
+//Sign up page
+@import "pages/sign_up/sign_up";
+
+//Contact us
+@import "pages/contact_us/contact-us";
+
+// Login Page
+@import "pages/sign_in/sign_in";
+
+//Profile Page
+@import "pages/profile/profile";
+
+// Services Page
+@import "pages/services/service_blocks";
+
+// About Us Page
+@import "pages/about_us/about_us";
+
+//Team Page
+@import "pages/team/team_blocks";
+
+//Quote Page
+@import "pages/quote/quote";
+
+//Parts
+@import "parts/reviews_slider";
+
+//Media
+
+@import "base/media";

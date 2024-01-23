@@ -1,0 +1,94 @@
+.button-arrow-black {
+    border-radius: 12px;
+    text-decoration: none;
+    width: fit-content;
+    background: var(--Black, #0a0a0a);
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--White, #fffefe);
+    /* 16/Medium */
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.08px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition:
+        width 800ms,
+        height 200ms;
+    -o-transition:
+        width 800ms,
+        height 200ms;
+    transition:
+        width 800ms,
+        height 200ms;
+
+    & img {
+        width: 24px;
+        height: 24px;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.button--blue > div {
+    transition: color 0.3s;
+}
+
+.button--blue:hover div {
+    color: #0029ff;
+}
+
+.button-arrow-black:hover {
+    text-decoration: none;
+    color: #fffefe;
+}
+
+.button-arrow-black:focus {
+    text-decoration: none;
+    color: #fffefe;
+}
+
+.button-arrow-black:hover div {
+    position: relative;
+    z-index: 2;
+}
+
+.button-arrow-black::before {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: -2%;
+    width: 0;
+    height: 0;
+    background-color: #0029ff;
+    border-radius: 100px;
+    z-index: 1;
+    -webkit-transition:
+        width 400ms,
+        height 600ms;
+    -o-transition:
+        width 400ms,
+        height 600ms;
+    transition:
+        width 400ms,
+        height 600ms;
+}
+
+.button-arrow-black:hover::before {
+    width: 200%;
+    height: 200%;
+    -webkit-transition:
+        width 1000ms,
+        height 500ms;
+    -o-transition:
+        width 1000ms,
+        height 500ms;
+    transition:
+        width 1000ms,
+        height 500ms;
+}

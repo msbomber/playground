@@ -1,0 +1,76 @@
+.quote {
+  &__container {
+  }
+
+  &__form {
+    width: 100%;
+    max-width: 800px;
+    padding: 48px 0px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7.5px);
+    text-align: center;
+    margin: 20vh auto 0;
+  }
+
+  &__step {
+    h4 {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    color: var(--Gray, #6a6b7a);
+  }
+
+  &__step--1 {
+  }
+
+  &__step--2 {
+  }
+
+  &__step--3 {
+  }
+
+  &__step--4 {
+  }
+
+  &__radio {
+    border-radius: 12px;
+    background: var(--White, #fffefe);
+    padding: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  &__next {
+    border-radius: 12px;
+    background: var(--Black, #0a0a0a);
+    padding: 12px 0px;
+    color: var(--White, #fffefe);
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 32px;
+  }
+
+  &__quantity--ep {
+  }
+
+  &__quantity--album {
+  }
+
+  &__step--5 {
+  }
+}
+.plus-minus {
+}

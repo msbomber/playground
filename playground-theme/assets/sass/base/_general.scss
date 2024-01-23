@@ -1,0 +1,176 @@
+body {
+    background-color: #f8f8f8 !important;
+}
+
+[class*="__container"] {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 112px;
+    padding-right: 112px;
+
+    @media only screen and (max-width: 992px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @media screen and (max-width: 767px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+.playground {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    gap: 12px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+
+    & p {
+        margin: auto 0;
+        color: var(--Black, #0a0a0a);
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.password-container {
+    & input {
+        width: 100%;
+    }
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    position: relative;
+}
+
+.toggle-password {
+    height: 48px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.woocommerce-password-strength {
+    display: none !important;
+}
+
+.home_page_background_normal {
+    background-image: url(../../assets/img/home-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile_page_background_normal {
+    background-image: url(../../assets/img/profile-min.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign_in_up_page_background_normal {
+    background-image: url(../../assets/img/sign-min.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quote_page_background_normal {
+    background-image: url(../../assets/img/sign-min.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-us_page_background_normal {
+    background-image: url(../../assets/img/contact_us.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team_page_background_normal {
+    background-image: url(../../assets/img/team_gradient-min.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services_page_background_normal {
+    background-image: url(../../assets/img/services-min.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us_page_background_normal {
+    background-image: url(../../assets/img/about_us-min.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 540px) {
+    .home_page_background_normal {
+        background-image: url(../../assets/img/home-min-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -40px;
+    }
+    .contact-us_page_background_normal {
+        background-image: url(../../assets/img/contact_us-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -40px;
+    }
+    .profile_page_background_normal {
+        background-image: url(../../assets/img/profile-min-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -40px;
+    }
+
+    .sign_in_up_page_background_normal {
+        background-image: url(../../assets/img/sign-up-min-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -40px;
+    }
+
+    .team_page_background_normal {
+        background-image: url(../../assets/img/team-min-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -40px;
+    }
+
+    .services_page_background_normal {
+        background-image: url(../../assets/img/services-min-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -40px;
+    }
+
+    .about-us_page_background_normal {
+        background-image: url(../../assets/img/about-us-min-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -40px;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+// @media only screen and(max-width: 1440px) {
+// }
+// @media only screen and (max-width: 1024px) {
+// }
+// @media only screen and (max-width: 992px) {
+// }
+// @media screen and (max-width: 767px) {
+// }

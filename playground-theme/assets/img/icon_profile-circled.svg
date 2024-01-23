@@ -1,0 +1,30 @@
+
+<svg width="274" height="274" viewBox="0 0 274 274" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_721_12634)">
+<g filter="url(#filter1_b_721_12634)">
+<path d="M137 2C62.4415 2 2 62.4415 2 137C2 211.558 62.4415 272 137 272C211.558 272 272 211.558 272 137C272 62.4415 211.558 2 137 2Z" fill="url(#paint0_linear_721_12634)"/>
+<path d="M137 2C62.4415 2 2 62.4415 2 137C2 211.558 62.4415 272 137 272C211.558 272 272 211.558 272 137C272 62.4415 211.558 2 137 2Z" stroke="#FFFEFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M36.9795 222.81C36.9795 222.81 66.4553 184.551 139.185 184.551C211.916 184.551 241.392 222.81 241.392 222.81" stroke="#FFFEFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M137 136.999C159.368 136.999 177.5 118.867 177.5 96.499C177.5 74.1315 159.368 55.999 137 55.999C114.631 55.999 96.4995 74.1315 96.4995 96.499C96.4995 118.867 114.631 136.999 137 136.999Z" stroke="#FFFEFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_b_721_12634" x="-75" y="-75" width="424" height="424" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="37.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_721_12634"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_721_12634" result="shape"/>
+</filter>
+<filter id="filter1_b_721_12634" x="-75" y="-75" width="424" height="424" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="37.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_721_12634"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_721_12634" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_721_12634" x1="-35.9286" y1="-54.5809" x2="221.328" y2="436.97" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E2A4FF"/>
+<stop offset="0.579348" stop-color="#8ABDDE"/>
+<stop offset="0.820198" stop-color="#65C8D0"/>
+</linearGradient>
+</defs>
+</svg>
